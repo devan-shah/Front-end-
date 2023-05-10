@@ -1,0 +1,179 @@
+<head>
+	<title>Piano Classes</title>
+	<style>
+		/* Style the header */
+		header {
+			background-color: wheat;
+			color: black;
+			/* padding: 10px; */
+			height: 90px;
+			text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		}
+
+		/* Style the images */
+		.guitar-img {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: normal;
+            scroll-behavior: auto;
+			margin: 20px 0;
+            margin-top: 10px;
+            height: 400px;
+            width: 500px;
+            flex-direction:column
+            
+		}
+        
+        .guitaar{
+            flex-direction: column;
+            width: 500px;
+            height: 400px;
+        }
+
+		.guitar-img img {
+			margin: 10px;
+			width: 600px;
+			height: auto;
+            flex-wrap: wrap;
+            
+		}
+
+		/* Style the form */
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 220px;
+            margin-top: 10px;
+		}
+
+		input[type="text"], input[type="email"], textarea {
+			width: 100%;
+			padding: 12px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			resize: vertical;
+		}
+
+		label {
+			padding: 12px 0;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		button[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+        
+        main{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        section{
+            content: normal;
+        }
+
+		button[type="submit"]:hover {
+			background-color: #45a049;
+		}
+
+		.navbar {
+  background-color: white;
+  overflow: hidden;
+  margin-bottom: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+  margin-left: 120px;
+}
+	</style>
+</head>
+<body>
+	<nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="Guitar.html">Guitar</a>
+        <a href="Casio.html">Casio</a>
+        <a href="Piano.html">Piano</a>
+        <a href="Violin.html">Violin</a>
+        <!-- <a href="#">Drums</a> -->
+      </nav>  
+	<header>
+		<h1>Piano Classes</h1>
+		<p>Learn to play Piano from our experienced instructors</p>
+	</header>
+
+	<main>
+		<section>
+			<h2>About Our Piano Classes</h2>
+			<p>We offer piano classes for students of all ages and skill levels, from beginner to advanced. Our instructors are highly qualified and experienced, with a passion for teaching and helping students achieve their goals.
+
+				<br><br> Our piano curriculum is designed to provide a strong foundation in technique, music theory, and performance skills. We use a variety of teaching methods and materials to ensure that students receive a comprehensive education and develop a love for playing the piano.
+				
+				<br><br> Whether you're interested in classical music, jazz, pop, or any other genre, we have a program that can help you achieve your musical goals. We offer both individual and group lessons, and our classes are tailored to meet the needs and interests of each student.
+				
+				<br><br> At Nigs Music Academy, we believe that music is a powerful tool for personal growth and self-expression. We're committed to helping our students develop their musical abilities and reach their full potential as pianists. Join us today and start your journey to becoming a skilled and confident piano player!
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				</p>
+		</section>
+
+		<section>
+			<h2>Insights of our live sessions</h2>
+			<div class="guitar-img">
+				<img src="Media/Piano-1.jpg" alt="guitar1">
+				<img src="Media/Piano-2 (2).jpg"  alt="guitar2">
+				
+                
+			</div>
+            <!-- <div class="guitaar">
+                <img src="Media/Guitar4.jpg" alt="guitar3">
+                <img src="Media/Guitar3 (2).jpg" alt="">
+            </div> -->
+		</section>
+
+		<section>
+			<h2>Contact Us</h2>
+			<form action="submit-form.php" method="POST">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" placeholder="Your name" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" placeholder="Your email" required>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+
+				<button type="submit">Send Message</button>
+			</form>
+		</section>
+	</main>
+</body>
+</html>
+
+
+
+
+
